@@ -1,0 +1,141 @@
+.footer {
+    background: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.logotype-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:  #4d5ae5;
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.footer-info {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    font-size: 16px;
+    max-width: 264px;
+}
+
+.footer-information {
+    margin-right: 120px;
+}
+
+.footer-studio {
+    color: #f4f4fd;
+}
+
+.footer-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-social-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.footer-social-icons-list {
+    display: flex;
+    gap: 16px; 
+}
+
+.footer-social-icon-item .footer-social-icon-item-link {
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-icon-item .footer-social-icon-item-link:hover,
+.footer-social-icon-item .footer-social-icon-item-link:focus {
+    background-color: #31d0aa;
+}
+
+/*---------------------------- INPUT FOOTER------------------- */
+.input-footer {
+    margin-left: 80px;
+}
+
+
+.input-title-footer {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.footer-form {
+    display: flex;
+    gap: 24px;
+}
+
+.input-area-footer {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    padding-left: 16px; 
+    outline: transparent;
+}
+
+.input-area-footer::placeholder {
+    color: #ffffff;
+}
+
+.footer-btn {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-btn:hover, 
+.footer-btn:focus {
+    background-color: #404bbf;
+}
+
+
+.input-footer-icon-btn {
+    fill: #ffffff;
+    margin-left: 16px;
+}
